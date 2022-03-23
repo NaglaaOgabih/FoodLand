@@ -1,0 +1,6 @@
+framework module Pods_FoodLand {
+  umbrella header "Pods-FoodLand-umbrella.h"
+
+  export *
+  module * { export * }
+}

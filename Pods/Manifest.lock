@@ -1,0 +1,20 @@
+PODS:
+  - iOSDropDown (0.3.4)
+  - SwiftyShadow (1.7.0)
+
+DEPENDENCIES:
+  - iOSDropDown
+  - SwiftyShadow
+
+SPEC REPOS:
+  trunk:
+    - iOSDropDown
+    - SwiftyShadow
+
+SPEC CHECKSUMS:
+  iOSDropDown: c10a761f9a00c3f1cc9d3bce43ae504628e2f692
+  SwiftyShadow: d2697c62eb83759b7806466e3ea29de24c772c29
+
+PODFILE CHECKSUM: 33ac73bf4e022f629ae334dc193a057328e34214
+
+COCOAPODS: 1.11.2

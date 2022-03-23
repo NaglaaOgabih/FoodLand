@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "kisspng-pizza-hut-poster-dough-four-pizza-5a82fe19762931.968865951518534169484.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "kisspng-pizza-hut-poster-dough-four-pizza-5a82fe19762931.968865951518534169484@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "kisspng-pizza-hut-poster-dough-four-pizza-5a82fe19762931.968865951518534169484@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

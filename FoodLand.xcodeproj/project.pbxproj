@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		505EDCFF199FF01AF68CAB2E /* Pods_FoodLand_FoodLandUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC8BA081A7616553A07892A /* Pods_FoodLand_FoodLandUITests.framework */; };
+		6F8B7F9C41628F91BE89D846 /* Pods_FoodLandTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D26F25A77665E39B69078A /* Pods_FoodLandTests.framework */; };
+		A031A97327EB0D3F00ACD4C9 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A031A97227EB0D3F00ACD4C9 /* MainPageViewController.swift */; };
+		A07B4F9B27EB401E00998DD8 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B4F9A27EB401E00998DD8 /* MainCollectionViewCell.swift */; };
+		A07B4F9D27EB433700998DD8 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B4F9C27EB433700998DD8 /* MainTableViewCell.swift */; };
+		A07B4F9F27EB451D00998DD8 /* OffersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B4F9E27EB451D00998DD8 /* OffersCollectionViewCell.swift */; };
+		A0845D8127EB0C800067413C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0845D8027EB0C800067413C /* AppDelegate.swift */; };
+		A0845D8327EB0C800067413C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0845D8227EB0C800067413C /* SceneDelegate.swift */; };
+		A0845D8527EB0C800067413C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0845D8427EB0C800067413C /* ViewController.swift */; };
+		A0845D8827EB0C800067413C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0845D8627EB0C800067413C /* Main.storyboard */; };
+		A0845D8A27EB0C810067413C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0845D8927EB0C810067413C /* Assets.xcassets */; };
+		A0845D8D27EB0C810067413C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0845D8B27EB0C810067413C /* LaunchScreen.storyboard */; };
+		A0845D9827EB0C820067413C /* FoodLandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0845D9727EB0C820067413C /* FoodLandTests.swift */; };
+		A0845DA227EB0C820067413C /* FoodLandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0845DA127EB0C820067413C /* FoodLandUITests.swift */; };
+		A0845DA427EB0C820067413C /* FoodLandUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0845DA327EB0C820067413C /* FoodLandUITestsLaunchTests.swift */; };
+		E1C867DF6EC0FDFFC7120561 /* Pods_FoodLand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FCBC405A64AA79A4808FD0E /* Pods_FoodLand.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0845D9427EB0C820067413C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0845D7527EB0C800067413C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0845D7C27EB0C800067413C;
+			remoteInfo = FoodLand;
+		};
+		A0845D9E27EB0C820067413C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0845D7527EB0C800067413C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0845D7C27EB0C800067413C;
+			remoteInfo = FoodLand;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		440A3DF086B3D533484DA9DB /* Pods-FoodLandTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodLandTests.debug.xcconfig"; path = "Target Support Files/Pods-FoodLandTests/Pods-FoodLandTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D39AEBCBA7F0AD1F21E48B8 /* Pods-FoodLand-FoodLandUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodLand-FoodLandUITests.debug.xcconfig"; path = "Target Support Files/Pods-FoodLand-FoodLandUITests/Pods-FoodLand-FoodLandUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FCBC405A64AA79A4808FD0E /* Pods_FoodLand.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodLand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73D26F25A77665E39B69078A /* Pods_FoodLandTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodLandTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC8BA081A7616553A07892A /* Pods_FoodLand_FoodLandUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodLand_FoodLandUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F490F5E4854259B08D16C55 /* Pods-FoodLandTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodLandTests.release.xcconfig"; path = "Target Support Files/Pods-FoodLandTests/Pods-FoodLandTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FDA7276CF9A68C619E574DA /* Pods-FoodLand.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodLand.release.xcconfig"; path = "Target Support Files/Pods-FoodLand/Pods-FoodLand.release.xcconfig"; sourceTree = "<group>"; };
+		A031A97227EB0D3F00ACD4C9 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		A07B4F9A27EB401E00998DD8 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		A07B4F9C27EB433700998DD8 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		A07B4F9E27EB451D00998DD8 /* OffersCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersCollectionViewCell.swift; sourceTree = "<group>"; };
+		A0845D7D27EB0C800067413C /* FoodLand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodLand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0845D8027EB0C800067413C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0845D8227EB0C800067413C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A0845D8427EB0C800067413C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0845D8727EB0C800067413C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0845D8927EB0C810067413C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0845D8C27EB0C810067413C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0845D8E27EB0C810067413C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0845D9327EB0C820067413C /* FoodLandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodLandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0845D9727EB0C820067413C /* FoodLandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLandTests.swift; sourceTree = "<group>"; };
+		A0845D9D27EB0C820067413C /* FoodLandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodLandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0845DA127EB0C820067413C /* FoodLandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLandUITests.swift; sourceTree = "<group>"; };
+		A0845DA327EB0C820067413C /* FoodLandUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLandUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B9B8A4B0D5A966445B3E41D4 /* Pods-FoodLand.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodLand.debug.xcconfig"; path = "Target Support Files/Pods-FoodLand/Pods-FoodLand.debug.xcconfig"; sourceTree = "<group>"; };
+		C2326D9545561A44EC0F3944 /* Pods-FoodLand-FoodLandUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodLand-FoodLandUITests.release.xcconfig"; path = "Target Support Files/Pods-FoodLand-FoodLandUITests/Pods-FoodLand-FoodLandUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0845D7A27EB0C800067413C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C867DF6EC0FDFFC7120561 /* Pods_FoodLand.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0845D9027EB0C820067413C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F8B7F9C41628F91BE89D846 /* Pods_FoodLandTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0845D9A27EB0C820067413C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				505EDCFF199FF01AF68CAB2E /* Pods_FoodLand_FoodLandUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A031A96F27EB0D0F00ACD4C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A031A97027EB0D1900ACD4C9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0845D8627EB0C800067413C /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A031A97127EB0D1E00ACD4C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A031A97227EB0D3F00ACD4C9 /* MainPageViewController.swift */,
+				A07B4F9A27EB401E00998DD8 /* MainCollectionViewCell.swift */,
+				A07B4F9C27EB433700998DD8 /* MainTableViewCell.swift */,
+				A07B4F9E27EB451D00998DD8 /* OffersCollectionViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A0845D7427EB0C800067413C = {
+			isa = PBXGroup;
+			children = (
+				A0845D7F27EB0C800067413C /* FoodLand */,
+				A0845D9627EB0C820067413C /* FoodLandTests */,
+				A0845DA027EB0C820067413C /* FoodLandUITests */,
+				A0845D7E27EB0C800067413C /* Products */,
+				BC1236F4287B8D2DC6ACD3D9 /* Pods */,
+				CEE726EE8E7DB87F80152079 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A0845D7E27EB0C800067413C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0845D7D27EB0C800067413C /* FoodLand.app */,
+				A0845D9327EB0C820067413C /* FoodLandTests.xctest */,
+				A0845D9D27EB0C820067413C /* FoodLandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0845D7F27EB0C800067413C /* FoodLand */ = {
+			isa = PBXGroup;
+			children = (
+				A031A97127EB0D1E00ACD4C9 /* Controller */,
+				A031A97027EB0D1900ACD4C9 /* View */,
+				A031A96F27EB0D0F00ACD4C9 /* Model */,
+				A0845D8027EB0C800067413C /* AppDelegate.swift */,
+				A0845D8227EB0C800067413C /* SceneDelegate.swift */,
+				A0845D8427EB0C800067413C /* ViewController.swift */,
+				A0845D8927EB0C810067413C /* Assets.xcassets */,
+				A0845D8B27EB0C810067413C /* LaunchScreen.storyboard */,
+				A0845D8E27EB0C810067413C /* Info.plist */,
+			);
+			path = FoodLand;
+			sourceTree = "<group>";
+		};
+		A0845D9627EB0C820067413C /* FoodLandTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0845D9727EB0C820067413C /* FoodLandTests.swift */,
+			);
+			path = FoodLandTests;
+			sourceTree = "<group>";
+		};
+		A0845DA027EB0C820067413C /* FoodLandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0845DA127EB0C820067413C /* FoodLandUITests.swift */,
+				A0845DA327EB0C820067413C /* FoodLandUITestsLaunchTests.swift */,
+			);
+			path = FoodLandUITests;
+			sourceTree = "<group>";
+		};
+		BC1236F4287B8D2DC6ACD3D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9B8A4B0D5A966445B3E41D4 /* Pods-FoodLand.debug.xcconfig */,
+				9FDA7276CF9A68C619E574DA /* Pods-FoodLand.release.xcconfig */,
+				4D39AEBCBA7F0AD1F21E48B8 /* Pods-FoodLand-FoodLandUITests.debug.xcconfig */,
+				C2326D9545561A44EC0F3944 /* Pods-FoodLand-FoodLandUITests.release.xcconfig */,
+				440A3DF086B3D533484DA9DB /* Pods-FoodLandTests.debug.xcconfig */,
+				9F490F5E4854259B08D16C55 /* Pods-FoodLandTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEE726EE8E7DB87F80152079 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FCBC405A64AA79A4808FD0E /* Pods_FoodLand.framework */,
+				7FC8BA081A7616553A07892A /* Pods_FoodLand_FoodLandUITests.framework */,
+				73D26F25A77665E39B69078A /* Pods_FoodLandTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0845D7C27EB0C800067413C /* FoodLand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0845DA727EB0C820067413C /* Build configuration list for PBXNativeTarget "FoodLand" */;
+			buildPhases = (
+				B8CAD2DFE7D5F646A92A58AB /* [CP] Check Pods Manifest.lock */,
+				A0845D7927EB0C800067413C /* Sources */,
+				A0845D7A27EB0C800067413C /* Frameworks */,
+				A0845D7B27EB0C800067413C /* Resources */,
+				DDB14E81F0DF79DEBAE3A4D3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodLand;
+			productName = FoodLand;
+			productReference = A0845D7D27EB0C800067413C /* FoodLand.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0845D9227EB0C820067413C /* FoodLandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0845DAA27EB0C820067413C /* Build configuration list for PBXNativeTarget "FoodLandTests" */;
+			buildPhases = (
+				0CEC35A53B3F6B102DDF98F4 /* [CP] Check Pods Manifest.lock */,
+				A0845D8F27EB0C820067413C /* Sources */,
+				A0845D9027EB0C820067413C /* Frameworks */,
+				A0845D9127EB0C820067413C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0845D9527EB0C820067413C /* PBXTargetDependency */,
+			);
+			name = FoodLandTests;
+			productName = FoodLandTests;
+			productReference = A0845D9327EB0C820067413C /* FoodLandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0845D9C27EB0C820067413C /* FoodLandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0845DAD27EB0C820067413C /* Build configuration list for PBXNativeTarget "FoodLandUITests" */;
+			buildPhases = (
+				76ECFEF3F327026B219945C7 /* [CP] Check Pods Manifest.lock */,
+				A0845D9927EB0C820067413C /* Sources */,
+				A0845D9A27EB0C820067413C /* Frameworks */,
+				A0845D9B27EB0C820067413C /* Resources */,
+				854283D6EC08DE9315A0D000 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0845D9F27EB0C820067413C /* PBXTargetDependency */,
+			);
+			name = FoodLandUITests;
+			productName = FoodLandUITests;
+			productReference = A0845D9D27EB0C820067413C /* FoodLandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0845D7527EB0C800067413C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A0845D7C27EB0C800067413C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					A0845D9227EB0C820067413C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A0845D7C27EB0C800067413C;
+					};
+					A0845D9C27EB0C820067413C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A0845D7C27EB0C800067413C;
+					};
+				};
+			};
+			buildConfigurationList = A0845D7827EB0C800067413C /* Build configuration list for PBXProject "FoodLand" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0845D7427EB0C800067413C;
+			productRefGroup = A0845D7E27EB0C800067413C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0845D7C27EB0C800067413C /* FoodLand */,
+				A0845D9227EB0C820067413C /* FoodLandTests */,
+				A0845D9C27EB0C820067413C /* FoodLandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0845D7B27EB0C800067413C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0845D8D27EB0C810067413C /* LaunchScreen.storyboard in Resources */,
+				A0845D8A27EB0C810067413C /* Assets.xcassets in Resources */,
+				A0845D8827EB0C800067413C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0845D9127EB0C820067413C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0845D9B27EB0C820067413C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CEC35A53B3F6B102DDF98F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodLandTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76ECFEF3F327026B219945C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodLand-FoodLandUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		854283D6EC08DE9315A0D000 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodLand-FoodLandUITests/Pods-FoodLand-FoodLandUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodLand-FoodLandUITests/Pods-FoodLand-FoodLandUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodLand-FoodLandUITests/Pods-FoodLand-FoodLandUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8CAD2DFE7D5F646A92A58AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodLand-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB14E81F0DF79DEBAE3A4D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodLand/Pods-FoodLand-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodLand/Pods-FoodLand-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodLand/Pods-FoodLand-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0845D7927EB0C800067413C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07B4F9B27EB401E00998DD8 /* MainCollectionViewCell.swift in Sources */,
+				A031A97327EB0D3F00ACD4C9 /* MainPageViewController.swift in Sources */,
+				A0845D8527EB0C800067413C /* ViewController.swift in Sources */,
+				A0845D8127EB0C800067413C /* AppDelegate.swift in Sources */,
+				A07B4F9D27EB433700998DD8 /* MainTableViewCell.swift in Sources */,
+				A07B4F9F27EB451D00998DD8 /* OffersCollectionViewCell.swift in Sources */,
+				A0845D8327EB0C800067413C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0845D8F27EB0C820067413C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0845D9827EB0C820067413C /* FoodLandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0845D9927EB0C820067413C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0845DA427EB0C820067413C /* FoodLandUITestsLaunchTests.swift in Sources */,
+				A0845DA227EB0C820067413C /* FoodLandUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0845D9527EB0C820067413C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0845D7C27EB0C800067413C /* FoodLand */;
+			targetProxy = A0845D9427EB0C820067413C /* PBXContainerItemProxy */;
+		};
+		A0845D9F27EB0C820067413C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0845D7C27EB0C800067413C /* FoodLand */;
+			targetProxy = A0845D9E27EB0C820067413C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0845D8627EB0C800067413C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0845D8727EB0C800067413C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0845D8B27EB0C810067413C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0845D8C27EB0C810067413C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0845DA527EB0C820067413C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0845DA627EB0C820067413C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0845DA827EB0C820067413C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9B8A4B0D5A966445B3E41D4 /* Pods-FoodLand.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MH7XJAXFM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodLand/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NaglaaOgabih.FoodLand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0845DA927EB0C820067413C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FDA7276CF9A68C619E574DA /* Pods-FoodLand.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MH7XJAXFM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodLand/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NaglaaOgabih.FoodLand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0845DAB27EB0C820067413C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 440A3DF086B3D533484DA9DB /* Pods-FoodLandTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MH7XJAXFM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NaglaaOgabih.FoodLandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodLand.app/FoodLand";
+			};
+			name = Debug;
+		};
+		A0845DAC27EB0C820067413C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F490F5E4854259B08D16C55 /* Pods-FoodLandTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MH7XJAXFM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NaglaaOgabih.FoodLandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodLand.app/FoodLand";
+			};
+			name = Release;
+		};
+		A0845DAE27EB0C820067413C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D39AEBCBA7F0AD1F21E48B8 /* Pods-FoodLand-FoodLandUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MH7XJAXFM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NaglaaOgabih.FoodLandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodLand;
+			};
+			name = Debug;
+		};
+		A0845DAF27EB0C820067413C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2326D9545561A44EC0F3944 /* Pods-FoodLand-FoodLandUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MH7XJAXFM4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NaglaaOgabih.FoodLandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodLand;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0845D7827EB0C800067413C /* Build configuration list for PBXProject "FoodLand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0845DA527EB0C820067413C /* Debug */,
+				A0845DA627EB0C820067413C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0845DA727EB0C820067413C /* Build configuration list for PBXNativeTarget "FoodLand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0845DA827EB0C820067413C /* Debug */,
+				A0845DA927EB0C820067413C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0845DAA27EB0C820067413C /* Build configuration list for PBXNativeTarget "FoodLandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0845DAB27EB0C820067413C /* Debug */,
+				A0845DAC27EB0C820067413C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0845DAD27EB0C820067413C /* Build configuration list for PBXNativeTarget "FoodLandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0845DAE27EB0C820067413C /* Debug */,
+				A0845DAF27EB0C820067413C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0845D7527EB0C800067413C /* Project object */;
+}
