@@ -14,4 +14,6 @@ class OffersCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var goodBtn: UIButton!
     @IBOutlet weak var deliveryLabel: UILabel!
     @IBOutlet weak var timeToArrive: UILabel!
+
+   
 }
