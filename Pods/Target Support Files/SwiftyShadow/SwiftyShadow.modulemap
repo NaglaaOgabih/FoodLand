@@ -1,6 +1,0 @@
-framework module SwiftyShadow {
-  umbrella header "SwiftyShadow-umbrella.h"
-
-  export *
-  module * { export * }
-}

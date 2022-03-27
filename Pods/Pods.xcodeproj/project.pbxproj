@@ -7,119 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09BF93E087695CEB6B7B42368E1C8749 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		1199CE887C0D3C0313F7E94FAFE0BFEB /* Pods-FoodLandTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADF98E50C8995C2108B536254377C910 /* Pods-FoodLandTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B637C619A94E1DCC06D923F5AFC833B /* iOSDropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67B8ED8FAEE76968C82602FC074328E4 /* iOSDropDown-dummy.m */; };
-		213C618BB26ED36A15E0E6E6FD983367 /* Pods-FoodLand-FoodLandUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 715D3D494160B99BA9DA5A857EF1F9C6 /* Pods-FoodLand-FoodLandUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		285F0E91DB7A22D06F648FF5793FB7FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		30CC79215F75F7BD8660EAF3E20F8793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		3EE4AA7A700A6BC8E0D728335F542D67 /* SwiftyInnerShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314461087C46CAFCDDF6F609764F5392 /* SwiftyInnerShadowView.swift */; };
-		52F35CDA24488460482575276E96F34C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		636BEE9CC20810EED79530F24CCFC18B /* Pods-FoodLand-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87ADF480A66665A8473B978D3822A7BC /* Pods-FoodLand-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BFE381768275EF539621C5D12B857B5 /* SwiftyShadow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2950C6A867E525E208A42CEF3806595 /* SwiftyShadow-dummy.m */; };
-		76CF83E13B6575995047141A7E49EE1E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F875E3E036A3C385CD8F34DD4541174 /* UIView.swift */; };
-		908F46DDFC25B9237C90DCD05F3C59B0 /* SwiftyShadow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0216C239EA5EC0F249B015AFC219FB0D /* SwiftyShadow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9EA55EBDF3A62B1291C9EAE00B1A9E6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		9F079A2701FEA0F33062E44BE2ECCBC0 /* iOSDropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B811F3108AA7CF4E9F7575096D6C21ED /* iOSDropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4315320E740505438F10D96ABBE1F13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		BCEB90BA800125022381A37DF14EF939 /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B493EF239BB93CA90B94DA396B0C15 /* iOSDropDown.swift */; };
-		C8B7AC23C89AB0E1422C91DAF2E8B340 /* Pods-FoodLand-FoodLandUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 124053E02C5C6FE2B6891E13DB216FE3 /* Pods-FoodLand-FoodLandUITests-dummy.m */; };
-		CB8392F5C2310842233C031F1737BF57 /* SwiftyInnerShadowLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F553294D8398E8A8E4F33D0D3CEAACF /* SwiftyInnerShadowLayer.swift */; };
-		EB14CD902709327F5FB9EE324BDF1CE9 /* Pods-FoodLandTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7C630A9EC80DF3325E6D05D01FACBF /* Pods-FoodLandTests-dummy.m */; };
-		FB16D5430C6C5C180FEA99EB6627A2CC /* Pods-FoodLand-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 368F84691873FDF68FA339275138A544 /* Pods-FoodLand-dummy.m */; };
+		00E7F802C7960B9262CC8DAD8D280FBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		110FD6BD00D6E1ACD440E3D154FA28D9 /* Pods-FoodLand-FoodLandUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 577CC7395DA96E05449FBCD54D455B57 /* Pods-FoodLand-FoodLandUITests-dummy.m */; };
+		1199CE887C0D3C0313F7E94FAFE0BFEB /* Pods-FoodLandTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F4382D9BFB8EB6DEBF181CA886ADF81 /* Pods-FoodLandTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A39687436B98214947A8F109B19EBE0 /* Pods-FoodLand-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99E3300A7505B88A40B806486D7CA7EF /* Pods-FoodLand-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5361A381C48E5D18B3C000B260DF5A7D /* Pods-FoodLand-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3A45DE3A448F14D7E744DD211BEC5D /* Pods-FoodLand-dummy.m */; };
+		6FFFD0FA5BA5CF2D9E44B6041BEAD099 /* Pods-FoodLand-FoodLandUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0993FEB2823BEDE59F0EB9F86D761BFF /* Pods-FoodLand-FoodLandUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EA55EBDF3A62B1291C9EAE00B1A9E6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EAA7DA07ABA29F494F0EEE658F52D2A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EB14CD902709327F5FB9EE324BDF1CE9 /* Pods-FoodLandTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2C22EF4C63D2AC6DD39E9F87A8C89C /* Pods-FoodLandTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		071650D888A8D3102315C79F74282928 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D0289E59A5DC8C0A28CC0F6C14BE633B;
-			remoteInfo = SwiftyShadow;
-		};
-		4BA014E631A8F3D05BBCE4DC9E3D5668 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D0289E59A5DC8C0A28CC0F6C14BE633B;
-			remoteInfo = SwiftyShadow;
-		};
-		5827DC9E31EEEC6564522E918F43DDCC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3C76CE6CD60B1CE55A174F03CC59AE17;
-			remoteInfo = iOSDropDown;
-		};
-		9CA86D7A77D2D9DB29BEAC93A69300F9 /* PBXContainerItemProxy */ = {
+		AE24D5AEA81E83B7C17D20640757665B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C9E9AB20DD30FBE544E84CB843FB45FD;
 			remoteInfo = "Pods-FoodLand";
 		};
-		E0B0990775B79C64225BA2FB8D4A4321 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3C76CE6CD60B1CE55A174F03CC59AE17;
-			remoteInfo = iOSDropDown;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0216C239EA5EC0F249B015AFC219FB0D /* SwiftyShadow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyShadow-umbrella.h"; sourceTree = "<group>"; };
-		124053E02C5C6FE2B6891E13DB216FE3 /* Pods-FoodLand-FoodLandUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodLand-FoodLandUITests-dummy.m"; sourceTree = "<group>"; };
-		251089D5D459A18F4CCDA5189EFBB2E9 /* SwiftyShadow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyShadow.release.xcconfig; sourceTree = "<group>"; };
-		25B493EF239BB93CA90B94DA396B0C15 /* iOSDropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iOSDropDown.swift; path = iOSDropDown/Classes/iOSDropDown.swift; sourceTree = "<group>"; };
-		2A55ACFACAD504A9227570FC5E3D0E73 /* Pods-FoodLand-FoodLandUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodLand-FoodLandUITests.release.xcconfig"; sourceTree = "<group>"; };
-		2BD00088C6D1927AF6D711CBE32FC6FB /* SwiftyShadow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyShadow.modulemap; sourceTree = "<group>"; };
-		30E34F6365F1490CA5C646E38155267C /* SwiftyShadow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyShadow-prefix.pch"; sourceTree = "<group>"; };
-		314461087C46CAFCDDF6F609764F5392 /* SwiftyInnerShadowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyInnerShadowView.swift; path = Sources/SwiftyInnerShadowView.swift; sourceTree = "<group>"; };
-		368F84691873FDF68FA339275138A544 /* Pods-FoodLand-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodLand-dummy.m"; sourceTree = "<group>"; };
-		408E16B392EEE93144B52F2314D4968F /* Pods-FoodLandTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodLandTests.debug.xcconfig"; sourceTree = "<group>"; };
-		412B2763E794569C5D08F09F11FFF375 /* Pods-FoodLand-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodLand-Info.plist"; sourceTree = "<group>"; };
-		45EC748CD0E64ECE21240E5107A8D976 /* Pods-FoodLand-FoodLandUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodLand-FoodLandUITests-frameworks.sh"; sourceTree = "<group>"; };
-		4662F2F4DC1EF66BD11A784E1EB98EF6 /* iOSDropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOSDropDown-Info.plist"; sourceTree = "<group>"; };
-		521FAEE56A7D318FA8DEDC708F83597A /* iOSDropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSDropDown.modulemap; sourceTree = "<group>"; };
-		57556C52F1C18F39AD816D283EF6A771 /* Pods-FoodLand-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodLand-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5CD356D7BE6A78BD4B4DEAA900F4F6E3 /* Pods-FoodLand-FoodLandUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodLand-FoodLandUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		67B8ED8FAEE76968C82602FC074328E4 /* iOSDropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSDropDown-dummy.m"; sourceTree = "<group>"; };
-		69EE04C0F463BFE1D467FC7C66C3AA2F /* Pods-FoodLand-FoodLandUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoodLand-FoodLandUITests.modulemap"; sourceTree = "<group>"; };
+		062DAC92947C91297554B02FAADF9DA8 /* Pods-FoodLandTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodLandTests-Info.plist"; sourceTree = "<group>"; };
+		0993FEB2823BEDE59F0EB9F86D761BFF /* Pods-FoodLand-FoodLandUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodLand-FoodLandUITests-umbrella.h"; sourceTree = "<group>"; };
+		0D9489F4F9F5E7375ADC13E69CEE8C30 /* Pods-FoodLand-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodLand-acknowledgements.plist"; sourceTree = "<group>"; };
+		1619B389114856249009D230FF045EF3 /* Pods-FoodLandTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodLandTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2CED9A779EA341B11F6E33ABB7BF304A /* Pods-FoodLandTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoodLandTests.modulemap"; sourceTree = "<group>"; };
+		567486D96090C1E144550FEAB160CBE4 /* Pods-FoodLand-FoodLandUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodLand-FoodLandUITests.release.xcconfig"; sourceTree = "<group>"; };
+		577CC7395DA96E05449FBCD54D455B57 /* Pods-FoodLand-FoodLandUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodLand-FoodLandUITests-dummy.m"; sourceTree = "<group>"; };
+		5F4382D9BFB8EB6DEBF181CA886ADF81 /* Pods-FoodLandTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodLandTests-umbrella.h"; sourceTree = "<group>"; };
+		6021B15F0EBFE3976C1EC31663DAEBA6 /* Pods-FoodLand-FoodLandUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodLand-FoodLandUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6EC31036CA4D27AF7B81BE0335F482DC /* Pods-FoodLandTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodLandTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6F3A78946421CBE7D62D086898A64A95 /* Pods-FoodLandTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FoodLandTests"; path = Pods_FoodLandTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		70EA18BF7710040064BF3BC6A3A65427 /* SwiftyShadow */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyShadow; path = SwiftyShadow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		715D3D494160B99BA9DA5A857EF1F9C6 /* Pods-FoodLand-FoodLandUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodLand-FoodLandUITests-umbrella.h"; sourceTree = "<group>"; };
-		79E1FF9DA521D70F410E08D3F9C522B1 /* Pods-FoodLandTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoodLandTests.modulemap"; sourceTree = "<group>"; };
-		7F79DD69D37BAD3CC360AD2EBBB86E4A /* Pods-FoodLandTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodLandTests-Info.plist"; sourceTree = "<group>"; };
-		817593A3FE888DDE2C56F24CA92572A1 /* SwiftyShadow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyShadow-Info.plist"; sourceTree = "<group>"; };
-		87ADF480A66665A8473B978D3822A7BC /* Pods-FoodLand-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodLand-umbrella.h"; sourceTree = "<group>"; };
-		8F553294D8398E8A8E4F33D0D3CEAACF /* SwiftyInnerShadowLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyInnerShadowLayer.swift; path = Sources/SwiftyInnerShadowLayer.swift; sourceTree = "<group>"; };
-		8F875E3E036A3C385CD8F34DD4541174 /* UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIView.swift; path = Sources/UIView.swift; sourceTree = "<group>"; };
-		95D36F0F9165FA4F221F48FB00E049A2 /* Pods-FoodLand-FoodLandUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodLand-FoodLandUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		9735EE0CAB7262B0CA900BC891B5DE62 /* Pods-FoodLandTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodLandTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7A57AE9DF0F9EAF5B8A0F887D3AEA8EB /* Pods-FoodLand-FoodLandUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoodLand-FoodLandUITests.modulemap"; sourceTree = "<group>"; };
+		7C2C22EF4C63D2AC6DD39E9F87A8C89C /* Pods-FoodLandTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodLandTests-dummy.m"; sourceTree = "<group>"; };
+		7D6BBF5BBA50ED83F5807FED12B7287F /* Pods-FoodLand-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodLand-Info.plist"; sourceTree = "<group>"; };
+		870680E09F844A9C3F5A20D03723EF65 /* Pods-FoodLand-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodLand-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8734E9279A86172806902AEBA8CE14D5 /* Pods-FoodLand.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodLand.debug.xcconfig"; sourceTree = "<group>"; };
+		935B7F592E77694003A4D8D6BE41C950 /* Pods-FoodLand-FoodLandUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodLand-FoodLandUITests-Info.plist"; sourceTree = "<group>"; };
+		99E3300A7505B88A40B806486D7CA7EF /* Pods-FoodLand-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodLand-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E50C5FF05574F34FC820B36DC264E33 /* Pods-FoodLandTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodLandTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A4127D283C4236A64F4617CF356971E6 /* Pods-FoodLand-FoodLandUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodLand-FoodLandUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A577BE873F6714F7B75849F2DCD98770 /* Pods-FoodLand-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodLand-frameworks.sh"; sourceTree = "<group>"; };
-		ADF98E50C8995C2108B536254377C910 /* Pods-FoodLandTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodLandTests-umbrella.h"; sourceTree = "<group>"; };
-		B2950C6A867E525E208A42CEF3806595 /* SwiftyShadow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyShadow-dummy.m"; sourceTree = "<group>"; };
-		B7D3CE94761FB98FF1DAEF9D85365FBA /* iOSDropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.debug.xcconfig; sourceTree = "<group>"; };
-		B811F3108AA7CF4E9F7575096D6C21ED /* iOSDropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-umbrella.h"; sourceTree = "<group>"; };
-		B81DC7DF33B855FBACCD94E785F72CA2 /* Pods-FoodLandTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodLandTests.release.xcconfig"; sourceTree = "<group>"; };
-		B9BFD3A4BA22FCF158AFF039606134CF /* Pods-FoodLand-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodLand-acknowledgements.plist"; sourceTree = "<group>"; };
-		BB688B6D15326D8AEF4748FAB441F1C4 /* iOSDropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.release.xcconfig; sourceTree = "<group>"; };
+		BC258A7C0EE088D3F323F3B93E5C7876 /* Pods-FoodLand-FoodLandUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodLand-FoodLandUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE911C9B8FF85EA248CAF3C5085BBF37 /* Pods-FoodLand-FoodLandUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FoodLand-FoodLandUITests"; path = Pods_FoodLand_FoodLandUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3A7D9FCC94AD84484130CF9D990B75E /* Pods-FoodLand.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodLand.debug.xcconfig"; sourceTree = "<group>"; };
-		CF2C69DD1EED0A9469556D099387C9F1 /* Pods-FoodLand.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodLand.release.xcconfig"; sourceTree = "<group>"; };
-		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		DD43B770818DDD568E24D017DCFD7A44 /* Pods-FoodLand.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoodLand.modulemap"; sourceTree = "<group>"; };
-		E02B0F4A136DC99E4F36AB9D6529288D /* SwiftyShadow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyShadow.debug.xcconfig; sourceTree = "<group>"; };
-		EA7C630A9EC80DF3325E6D05D01FACBF /* Pods-FoodLandTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodLandTests-dummy.m"; sourceTree = "<group>"; };
-		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F43B2A639BCC16507599500120C5DAC9 /* iOSDropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-prefix.pch"; sourceTree = "<group>"; };
+		C3346279B9D7BD9EBB483966350333CF /* Pods-FoodLand-FoodLandUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodLand-FoodLandUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6BE9BA1D599DA0D3FC971327EB0DBA6 /* Pods-FoodLandTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodLandTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAE49391FAE41FACA96400D61C0CB231 /* Pods-FoodLandTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodLandTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD3A45DE3A448F14D7E744DD211BEC5D /* Pods-FoodLand-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodLand-dummy.m"; sourceTree = "<group>"; };
+		D5AEC2BB410E15075C1376BAE8DB1D9F /* Pods-FoodLand.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodLand.release.xcconfig"; sourceTree = "<group>"; };
+		E7E123B0060A5D3D02D46AED3BD0B6E5 /* Pods-FoodLand.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoodLand.modulemap"; sourceTree = "<group>"; };
 		F73A72969A0D922A1327AB3694EE786A /* Pods-FoodLand */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FoodLand"; path = Pods_FoodLand.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA373D9828B92082AC70AFE26C149A34 /* Pods-FoodLand-FoodLandUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodLand-FoodLandUITests-Info.plist"; sourceTree = "<group>"; };
-		FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSDropDown; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,219 +69,127 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F0ABA45A4B5158600A1B7CEFBA7423D /* Frameworks */ = {
+		ACA9387CDA994B345D5928799BF542BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52F35CDA24488460482575276E96F34C /* Foundation.framework in Frameworks */,
+				00E7F802C7960B9262CC8DAD8D280FBF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		757DD7F42483F1FD3CFAC8A82FD8B6AD /* Frameworks */ = {
+		B89757F71F05E98E7359AF7CF8382B8C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30CC79215F75F7BD8660EAF3E20F8793 /* Foundation.framework in Frameworks */,
-				285F0E91DB7A22D06F648FF5793FB7FC /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8E7BC8BBBB103448F1668697DC513540 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B4315320E740505438F10D96ABBE1F13 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9EC0A325345A45F411F036E06674BB9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				09BF93E087695CEB6B7B42368E1C8749 /* Foundation.framework in Frameworks */,
+				EAA7DA07ABA29F494F0EEE658F52D2A2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		2CC170FABEF0061939FD9E40C8B5256D /* Pods-FoodLand-FoodLandUITests */ = {
+		64B01028505031676C904B91E0EE6563 /* Pods-FoodLand */ = {
 			isa = PBXGroup;
 			children = (
-				69EE04C0F463BFE1D467FC7C66C3AA2F /* Pods-FoodLand-FoodLandUITests.modulemap */,
-				A4127D283C4236A64F4617CF356971E6 /* Pods-FoodLand-FoodLandUITests-acknowledgements.markdown */,
-				5CD356D7BE6A78BD4B4DEAA900F4F6E3 /* Pods-FoodLand-FoodLandUITests-acknowledgements.plist */,
-				124053E02C5C6FE2B6891E13DB216FE3 /* Pods-FoodLand-FoodLandUITests-dummy.m */,
-				45EC748CD0E64ECE21240E5107A8D976 /* Pods-FoodLand-FoodLandUITests-frameworks.sh */,
-				FA373D9828B92082AC70AFE26C149A34 /* Pods-FoodLand-FoodLandUITests-Info.plist */,
-				715D3D494160B99BA9DA5A857EF1F9C6 /* Pods-FoodLand-FoodLandUITests-umbrella.h */,
-				95D36F0F9165FA4F221F48FB00E049A2 /* Pods-FoodLand-FoodLandUITests.debug.xcconfig */,
-				2A55ACFACAD504A9227570FC5E3D0E73 /* Pods-FoodLand-FoodLandUITests.release.xcconfig */,
+				E7E123B0060A5D3D02D46AED3BD0B6E5 /* Pods-FoodLand.modulemap */,
+				870680E09F844A9C3F5A20D03723EF65 /* Pods-FoodLand-acknowledgements.markdown */,
+				0D9489F4F9F5E7375ADC13E69CEE8C30 /* Pods-FoodLand-acknowledgements.plist */,
+				CD3A45DE3A448F14D7E744DD211BEC5D /* Pods-FoodLand-dummy.m */,
+				7D6BBF5BBA50ED83F5807FED12B7287F /* Pods-FoodLand-Info.plist */,
+				99E3300A7505B88A40B806486D7CA7EF /* Pods-FoodLand-umbrella.h */,
+				8734E9279A86172806902AEBA8CE14D5 /* Pods-FoodLand.debug.xcconfig */,
+				D5AEC2BB410E15075C1376BAE8DB1D9F /* Pods-FoodLand.release.xcconfig */,
+			);
+			name = "Pods-FoodLand";
+			path = "Target Support Files/Pods-FoodLand";
+			sourceTree = "<group>";
+		};
+		88D73F70402249913933D76636B955E9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64B01028505031676C904B91E0EE6563 /* Pods-FoodLand */,
+				C634970FE797F4BC9DD90BA765BF8F41 /* Pods-FoodLand-FoodLandUITests */,
+				C9711CEFD7142E95D48CFF09C700DB82 /* Pods-FoodLandTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B65BEC3BAC985951C4318319059A5359 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F73A72969A0D922A1327AB3694EE786A /* Pods-FoodLand */,
+				BE911C9B8FF85EA248CAF3C5085BBF37 /* Pods-FoodLand-FoodLandUITests */,
+				6F3A78946421CBE7D62D086898A64A95 /* Pods-FoodLandTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C634970FE797F4BC9DD90BA765BF8F41 /* Pods-FoodLand-FoodLandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7A57AE9DF0F9EAF5B8A0F887D3AEA8EB /* Pods-FoodLand-FoodLandUITests.modulemap */,
+				C3346279B9D7BD9EBB483966350333CF /* Pods-FoodLand-FoodLandUITests-acknowledgements.markdown */,
+				6021B15F0EBFE3976C1EC31663DAEBA6 /* Pods-FoodLand-FoodLandUITests-acknowledgements.plist */,
+				577CC7395DA96E05449FBCD54D455B57 /* Pods-FoodLand-FoodLandUITests-dummy.m */,
+				935B7F592E77694003A4D8D6BE41C950 /* Pods-FoodLand-FoodLandUITests-Info.plist */,
+				0993FEB2823BEDE59F0EB9F86D761BFF /* Pods-FoodLand-FoodLandUITests-umbrella.h */,
+				BC258A7C0EE088D3F323F3B93E5C7876 /* Pods-FoodLand-FoodLandUITests.debug.xcconfig */,
+				567486D96090C1E144550FEAB160CBE4 /* Pods-FoodLand-FoodLandUITests.release.xcconfig */,
 			);
 			name = "Pods-FoodLand-FoodLandUITests";
 			path = "Target Support Files/Pods-FoodLand-FoodLandUITests";
 			sourceTree = "<group>";
 		};
-		4B61E44E9FE8FA138316859AB93173EC /* Pods-FoodLandTests */ = {
+		C9711CEFD7142E95D48CFF09C700DB82 /* Pods-FoodLandTests */ = {
 			isa = PBXGroup;
 			children = (
-				79E1FF9DA521D70F410E08D3F9C522B1 /* Pods-FoodLandTests.modulemap */,
-				9735EE0CAB7262B0CA900BC891B5DE62 /* Pods-FoodLandTests-acknowledgements.markdown */,
-				9E50C5FF05574F34FC820B36DC264E33 /* Pods-FoodLandTests-acknowledgements.plist */,
-				EA7C630A9EC80DF3325E6D05D01FACBF /* Pods-FoodLandTests-dummy.m */,
-				7F79DD69D37BAD3CC360AD2EBBB86E4A /* Pods-FoodLandTests-Info.plist */,
-				ADF98E50C8995C2108B536254377C910 /* Pods-FoodLandTests-umbrella.h */,
-				408E16B392EEE93144B52F2314D4968F /* Pods-FoodLandTests.debug.xcconfig */,
-				B81DC7DF33B855FBACCD94E785F72CA2 /* Pods-FoodLandTests.release.xcconfig */,
+				2CED9A779EA341B11F6E33ABB7BF304A /* Pods-FoodLandTests.modulemap */,
+				1619B389114856249009D230FF045EF3 /* Pods-FoodLandTests-acknowledgements.markdown */,
+				6EC31036CA4D27AF7B81BE0335F482DC /* Pods-FoodLandTests-acknowledgements.plist */,
+				7C2C22EF4C63D2AC6DD39E9F87A8C89C /* Pods-FoodLandTests-dummy.m */,
+				062DAC92947C91297554B02FAADF9DA8 /* Pods-FoodLandTests-Info.plist */,
+				5F4382D9BFB8EB6DEBF181CA886ADF81 /* Pods-FoodLandTests-umbrella.h */,
+				CAE49391FAE41FACA96400D61C0CB231 /* Pods-FoodLandTests.debug.xcconfig */,
+				C6BE9BA1D599DA0D3FC971327EB0DBA6 /* Pods-FoodLandTests.release.xcconfig */,
 			);
 			name = "Pods-FoodLandTests";
 			path = "Target Support Files/Pods-FoodLandTests";
-			sourceTree = "<group>";
-		};
-		4C937DFFBA3ECA22C647EF4FDF776E82 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E53FCEE644FE90F0F340DFC26188B878 /* Pods-FoodLand */,
-				2CC170FABEF0061939FD9E40C8B5256D /* Pods-FoodLand-FoodLandUITests */,
-				4B61E44E9FE8FA138316859AB93173EC /* Pods-FoodLandTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		58936214806BC14B36DBE8A9C9A1EA26 /* iOSDropDown */ = {
-			isa = PBXGroup;
-			children = (
-				25B493EF239BB93CA90B94DA396B0C15 /* iOSDropDown.swift */,
-				FC414722036221764C8B5CCC5DED7A15 /* Support Files */,
-			);
-			name = iOSDropDown;
-			path = iOSDropDown;
-			sourceTree = "<group>";
-		};
-		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
-				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		612EE9A5365A79E038A1AB10C2FAFB77 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2BD00088C6D1927AF6D711CBE32FC6FB /* SwiftyShadow.modulemap */,
-				B2950C6A867E525E208A42CEF3806595 /* SwiftyShadow-dummy.m */,
-				817593A3FE888DDE2C56F24CA92572A1 /* SwiftyShadow-Info.plist */,
-				30E34F6365F1490CA5C646E38155267C /* SwiftyShadow-prefix.pch */,
-				0216C239EA5EC0F249B015AFC219FB0D /* SwiftyShadow-umbrella.h */,
-				E02B0F4A136DC99E4F36AB9D6529288D /* SwiftyShadow.debug.xcconfig */,
-				251089D5D459A18F4CCDA5189EFBB2E9 /* SwiftyShadow.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/SwiftyShadow";
-			sourceTree = "<group>";
-		};
-		66C3690536C12888D456307CD10A7807 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				58936214806BC14B36DBE8A9C9A1EA26 /* iOSDropDown */,
-				95DA5512294542EFA933017DAE22A053 /* SwiftyShadow */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		95DA5512294542EFA933017DAE22A053 /* SwiftyShadow */ = {
-			isa = PBXGroup;
-			children = (
-				8F553294D8398E8A8E4F33D0D3CEAACF /* SwiftyInnerShadowLayer.swift */,
-				314461087C46CAFCDDF6F609764F5392 /* SwiftyInnerShadowView.swift */,
-				8F875E3E036A3C385CD8F34DD4541174 /* UIView.swift */,
-				612EE9A5365A79E038A1AB10C2FAFB77 /* Support Files */,
-			);
-			name = SwiftyShadow;
-			path = SwiftyShadow;
-			sourceTree = "<group>";
-		};
-		9CBB9DF634F1BD23DC56749F6F067CB7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown */,
-				F73A72969A0D922A1327AB3694EE786A /* Pods-FoodLand */,
-				BE911C9B8FF85EA248CAF3C5085BBF37 /* Pods-FoodLand-FoodLandUITests */,
-				6F3A78946421CBE7D62D086898A64A95 /* Pods-FoodLandTests */,
-				70EA18BF7710040064BF3BC6A3A65427 /* SwiftyShadow */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				66C3690536C12888D456307CD10A7807 /* Pods */,
-				9CBB9DF634F1BD23DC56749F6F067CB7 /* Products */,
-				4C937DFFBA3ECA22C647EF4FDF776E82 /* Targets Support Files */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B65BEC3BAC985951C4318319059A5359 /* Products */,
+				88D73F70402249913933D76636B955E9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		E53FCEE644FE90F0F340DFC26188B878 /* Pods-FoodLand */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DD43B770818DDD568E24D017DCFD7A44 /* Pods-FoodLand.modulemap */,
-				57556C52F1C18F39AD816D283EF6A771 /* Pods-FoodLand-acknowledgements.markdown */,
-				B9BFD3A4BA22FCF158AFF039606134CF /* Pods-FoodLand-acknowledgements.plist */,
-				368F84691873FDF68FA339275138A544 /* Pods-FoodLand-dummy.m */,
-				A577BE873F6714F7B75849F2DCD98770 /* Pods-FoodLand-frameworks.sh */,
-				412B2763E794569C5D08F09F11FFF375 /* Pods-FoodLand-Info.plist */,
-				87ADF480A66665A8473B978D3822A7BC /* Pods-FoodLand-umbrella.h */,
-				C3A7D9FCC94AD84484130CF9D990B75E /* Pods-FoodLand.debug.xcconfig */,
-				CF2C69DD1EED0A9469556D099387C9F1 /* Pods-FoodLand.release.xcconfig */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
-			name = "Pods-FoodLand";
-			path = "Target Support Files/Pods-FoodLand";
-			sourceTree = "<group>";
-		};
-		FC414722036221764C8B5CCC5DED7A15 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				521FAEE56A7D318FA8DEDC708F83597A /* iOSDropDown.modulemap */,
-				67B8ED8FAEE76968C82602FC074328E4 /* iOSDropDown-dummy.m */,
-				4662F2F4DC1EF66BD11A784E1EB98EF6 /* iOSDropDown-Info.plist */,
-				F43B2A639BCC16507599500120C5DAC9 /* iOSDropDown-prefix.pch */,
-				B811F3108AA7CF4E9F7575096D6C21ED /* iOSDropDown-umbrella.h */,
-				B7D3CE94761FB98FF1DAEF9D85365FBA /* iOSDropDown.debug.xcconfig */,
-				BB688B6D15326D8AEF4748FAB441F1C4 /* iOSDropDown.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/iOSDropDown";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3846E1695F51B014C300D2BA889AB976 /* Headers */ = {
+		09FDDE6E50EFB44685DFF53C0584CFC6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				213C618BB26ED36A15E0E6E6FD983367 /* Pods-FoodLand-FoodLandUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		77C9AF7A75E4202591CCC21F39CE86BE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				636BEE9CC20810EED79530F24CCFC18B /* Pods-FoodLand-umbrella.h in Headers */,
+				3A39687436B98214947A8F109B19EBE0 /* Pods-FoodLand-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,19 +201,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A4A4B89BF7494286E121F9A725CEB19 /* Headers */ = {
+		DC2F35B046DBD880291041ED2B9F2A2D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				908F46DDFC25B9237C90DCD05F3C59B0 /* SwiftyShadow-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD4CF08E6AA8A4DB187E2A164C28B4F8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F079A2701FEA0F33062E44BE2ECCBC0 /* iOSDropDown-umbrella.h in Headers */,
+				6FFFD0FA5BA5CF2D9E44B6041BEAD099 /* Pods-FoodLand-FoodLandUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,40 +214,20 @@
 /* Begin PBXNativeTarget section */
 		105A0824C345B5461954689933152DB9 /* Pods-FoodLand-FoodLandUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 965E370F0C4448738EC5215385FE5F6E /* Build configuration list for PBXNativeTarget "Pods-FoodLand-FoodLandUITests" */;
+			buildConfigurationList = F6272199E5F00D8C937E41F1E01705D0 /* Build configuration list for PBXNativeTarget "Pods-FoodLand-FoodLandUITests" */;
 			buildPhases = (
-				3846E1695F51B014C300D2BA889AB976 /* Headers */,
-				9720E67C58B8D6F48F9B042AFCF8EE96 /* Sources */,
-				2F0ABA45A4B5158600A1B7CEFBA7423D /* Frameworks */,
-				88E33C96C0932902E491FD54603C1691 /* Resources */,
+				DC2F35B046DBD880291041ED2B9F2A2D /* Headers */,
+				F04E5E3CE44D6D1289AF3E1204465FEF /* Sources */,
+				ACA9387CDA994B345D5928799BF542BF /* Frameworks */,
+				41187A4F41CF894546A04521209778C0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8CF2B2B5C5808D7DFF329C5E562AA322 /* PBXTargetDependency */,
-				5E50CF3A54C127F811F5EE0491F88473 /* PBXTargetDependency */,
 			);
 			name = "Pods-FoodLand-FoodLandUITests";
 			productName = Pods_FoodLand_FoodLandUITests;
 			productReference = BE911C9B8FF85EA248CAF3C5085BBF37 /* Pods-FoodLand-FoodLandUITests */;
-			productType = "com.apple.product-type.framework";
-		};
-		3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9BB71DF8A78DA9184B370DFCE2E4A9F5 /* Build configuration list for PBXNativeTarget "iOSDropDown" */;
-			buildPhases = (
-				BD4CF08E6AA8A4DB187E2A164C28B4F8 /* Headers */,
-				C007FF516C6F3115BB3A2EF5261492C8 /* Sources */,
-				757DD7F42483F1FD3CFAC8A82FD8B6AD /* Frameworks */,
-				A637E6D62C8F056CC40DC1E80705FA1C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = iOSDropDown;
-			productName = iOSDropDown;
-			productReference = FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown */;
 			productType = "com.apple.product-type.framework";
 		};
 		A6F53B8E3669C48DBC5030B90CF8F2A5 /* Pods-FoodLandTests */ = {
@@ -424,7 +242,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				715F6F64C4119B0610EE4F5B18819F16 /* PBXTargetDependency */,
+				B3B9F70C878A94906FAB401352D9412A /* PBXTargetDependency */,
 			);
 			name = "Pods-FoodLandTests";
 			productName = Pods_FoodLandTests;
@@ -433,40 +251,20 @@
 		};
 		C9E9AB20DD30FBE544E84CB843FB45FD /* Pods-FoodLand */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACC8C061CF9C869896CA7BDA87EA0D7E /* Build configuration list for PBXNativeTarget "Pods-FoodLand" */;
+			buildConfigurationList = 6C02EC84BB24E8C5BEFF7CAAC6E6B03F /* Build configuration list for PBXNativeTarget "Pods-FoodLand" */;
 			buildPhases = (
-				77C9AF7A75E4202591CCC21F39CE86BE /* Headers */,
-				8C920F2A56E11279B20223C9A05B7FC1 /* Sources */,
-				8E7BC8BBBB103448F1668697DC513540 /* Frameworks */,
-				87C203D5AA7AF66C1423DA7FE43097B2 /* Resources */,
+				09FDDE6E50EFB44685DFF53C0584CFC6 /* Headers */,
+				53C5A7EC8A3A0353337AF67EF1EE53DC /* Sources */,
+				B89757F71F05E98E7359AF7CF8382B8C /* Frameworks */,
+				5515D285A797AFFA77117430BAC3FB0D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E6E5B48B590D6A6D461705C79424612C /* PBXTargetDependency */,
-				CA91FB89666F87EC95B834125A538799 /* PBXTargetDependency */,
 			);
 			name = "Pods-FoodLand";
 			productName = Pods_FoodLand;
 			productReference = F73A72969A0D922A1327AB3694EE786A /* Pods-FoodLand */;
-			productType = "com.apple.product-type.framework";
-		};
-		D0289E59A5DC8C0A28CC0F6C14BE633B /* SwiftyShadow */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 046660BBA1197E18D0FCFE0ED78EA25E /* Build configuration list for PBXNativeTarget "SwiftyShadow" */;
-			buildPhases = (
-				9A4A4B89BF7494286E121F9A725CEB19 /* Headers */,
-				70EA1A6BC0E6AB79967BBFCAED2FC621 /* Sources */,
-				F9EC0A325345A45F411F036E06674BB9 /* Frameworks */,
-				1DCBB430C63B093EE5453655AF78C9F8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftyShadow;
-			productName = SwiftyShadow;
-			productReference = 70EA18BF7710040064BF3BC6A3A65427 /* SwiftyShadow */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -487,42 +285,26 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9CBB9DF634F1BD23DC56749F6F067CB7 /* Products */;
+			productRefGroup = B65BEC3BAC985951C4318319059A5359 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */,
 				C9E9AB20DD30FBE544E84CB843FB45FD /* Pods-FoodLand */,
 				105A0824C345B5461954689933152DB9 /* Pods-FoodLand-FoodLandUITests */,
 				A6F53B8E3669C48DBC5030B90CF8F2A5 /* Pods-FoodLandTests */,
-				D0289E59A5DC8C0A28CC0F6C14BE633B /* SwiftyShadow */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1DCBB430C63B093EE5453655AF78C9F8 /* Resources */ = {
+		41187A4F41CF894546A04521209778C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		87C203D5AA7AF66C1423DA7FE43097B2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		88E33C96C0932902E491FD54603C1691 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A637E6D62C8F056CC40DC1E80705FA1C /* Resources */ = {
+		5515D285A797AFFA77117430BAC3FB0D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -539,39 +321,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		70EA1A6BC0E6AB79967BBFCAED2FC621 /* Sources */ = {
+		53C5A7EC8A3A0353337AF67EF1EE53DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB8392F5C2310842233C031F1737BF57 /* SwiftyInnerShadowLayer.swift in Sources */,
-				3EE4AA7A700A6BC8E0D728335F542D67 /* SwiftyInnerShadowView.swift in Sources */,
-				6BFE381768275EF539621C5D12B857B5 /* SwiftyShadow-dummy.m in Sources */,
-				76CF83E13B6575995047141A7E49EE1E /* UIView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8C920F2A56E11279B20223C9A05B7FC1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FB16D5430C6C5C180FEA99EB6627A2CC /* Pods-FoodLand-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9720E67C58B8D6F48F9B042AFCF8EE96 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C8B7AC23C89AB0E1422C91DAF2E8B340 /* Pods-FoodLand-FoodLandUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C007FF516C6F3115BB3A2EF5261492C8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BCEB90BA800125022381A37DF14EF939 /* iOSDropDown.swift in Sources */,
-				1B637C619A94E1DCC06D923F5AFC833B /* iOSDropDown-dummy.m in Sources */,
+				5361A381C48E5D18B3C000B260DF5A7D /* Pods-FoodLand-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,45 +337,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F04E5E3CE44D6D1289AF3E1204465FEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110FD6BD00D6E1ACD440E3D154FA28D9 /* Pods-FoodLand-FoodLandUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5E50CF3A54C127F811F5EE0491F88473 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = iOSDropDown;
-			target = 3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */;
-			targetProxy = 5827DC9E31EEEC6564522E918F43DDCC /* PBXContainerItemProxy */;
-		};
-		715F6F64C4119B0610EE4F5B18819F16 /* PBXTargetDependency */ = {
+		B3B9F70C878A94906FAB401352D9412A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FoodLand";
 			target = C9E9AB20DD30FBE544E84CB843FB45FD /* Pods-FoodLand */;
-			targetProxy = 9CA86D7A77D2D9DB29BEAC93A69300F9 /* PBXContainerItemProxy */;
-		};
-		8CF2B2B5C5808D7DFF329C5E562AA322 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyShadow;
-			target = D0289E59A5DC8C0A28CC0F6C14BE633B /* SwiftyShadow */;
-			targetProxy = 4BA014E631A8F3D05BBCE4DC9E3D5668 /* PBXContainerItemProxy */;
-		};
-		CA91FB89666F87EC95B834125A538799 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = iOSDropDown;
-			target = 3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */;
-			targetProxy = E0B0990775B79C64225BA2FB8D4A4321 /* PBXContainerItemProxy */;
-		};
-		E6E5B48B590D6A6D461705C79424612C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftyShadow;
-			target = D0289E59A5DC8C0A28CC0F6C14BE633B /* SwiftyShadow */;
-			targetProxy = 071650D888A8D3102315C79F74282928 /* PBXContainerItemProxy */;
+			targetProxy = AE24D5AEA81E83B7C17D20640757665B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C26567D9EA9D6A1FD8377FC90385140 /* Debug */ = {
+		013D7E7CE80070CF8DDDCB2B68572A2C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3A7D9FCC94AD84484130CF9D990B75E /* Pods-FoodLand.debug.xcconfig */;
+			baseConfigurationReference = BC258A7C0EE088D3F323F3B93E5C7876 /* Pods-FoodLand-FoodLandUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -633,7 +371,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FoodLand/Pods-FoodLand-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodLand-FoodLandUITests/Pods-FoodLand-FoodLandUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -642,7 +380,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FoodLand/Pods-FoodLand.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodLand-FoodLandUITests/Pods-FoodLand-FoodLandUITests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -656,10 +394,12 @@
 			};
 			name = Debug;
 		};
-		1E12A2FAE246AB180C3F3C676C300069 /* Debug */ = {
+		332BB4B4C09DCABB57FAB872D8F5FDDF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7D3CE94761FB98FF1DAEF9D85365FBA /* iOSDropDown.debug.xcconfig */;
+			baseConfigurationReference = 567486D96090C1E144550FEAB160CBE4 /* Pods-FoodLand-FoodLandUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -668,56 +408,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/iOSDropDown/iOSDropDown-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iOSDropDown/iOSDropDown-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodLand-FoodLandUITests/Pods-FoodLand-FoodLandUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/iOSDropDown/iOSDropDown.modulemap";
-				PRODUCT_MODULE_NAME = iOSDropDown;
-				PRODUCT_NAME = iOSDropDown;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodLand-FoodLandUITests/Pods-FoodLand-FoodLandUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		333E2B57503F135BE1D3D4E7F3BF1249 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 251089D5D459A18F4CCDA5189EFBB2E9 /* SwiftyShadow.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyShadow/SwiftyShadow-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyShadow/SwiftyShadow-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyShadow/SwiftyShadow.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyShadow;
-				PRODUCT_NAME = SwiftyShadow;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -791,9 +498,9 @@
 			};
 			name = Debug;
 		};
-		44CDB5486328DB1D74FD0015F1DCA228 /* Debug */ = {
+		7AF67CAB838F843405135F2C5E1A8A7F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95D36F0F9165FA4F221F48FB00E049A2 /* Pods-FoodLand-FoodLandUITests.debug.xcconfig */;
+			baseConfigurationReference = 8734E9279A86172806902AEBA8CE14D5 /* Pods-FoodLand.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -805,7 +512,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FoodLand-FoodLandUITests/Pods-FoodLand-FoodLandUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodLand/Pods-FoodLand-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -814,7 +521,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FoodLand-FoodLandUITests/Pods-FoodLand-FoodLandUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodLand/Pods-FoodLand.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -828,9 +535,9 @@
 			};
 			name = Debug;
 		};
-		45021634C68EF17A5D8EF2E5DC75E64E /* Release */ = {
+		A8B04312CB4FB4CBCCEC07C7AF7FBE2E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A55ACFACAD504A9227570FC5E3D0E73 /* Pods-FoodLand-FoodLandUITests.release.xcconfig */;
+			baseConfigurationReference = D5AEC2BB410E15075C1376BAE8DB1D9F /* Pods-FoodLand.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -842,7 +549,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FoodLand-FoodLandUITests/Pods-FoodLand-FoodLandUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodLand/Pods-FoodLand-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -851,7 +558,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FoodLand-FoodLandUITests/Pods-FoodLand-FoodLandUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodLand/Pods-FoodLand.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -865,75 +572,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		5B42562DF2EC85844EF2D9F4C24EEB63 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB688B6D15326D8AEF4748FAB441F1C4 /* iOSDropDown.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/iOSDropDown/iOSDropDown-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iOSDropDown/iOSDropDown-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/iOSDropDown/iOSDropDown.modulemap";
-				PRODUCT_MODULE_NAME = iOSDropDown;
-				PRODUCT_NAME = iOSDropDown;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5E3893C8A9B3E449DCC274D1E7768D70 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E02B0F4A136DC99E4F36AB9D6529288D /* SwiftyShadow.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyShadow/SwiftyShadow-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyShadow/SwiftyShadow-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SwiftyShadow/SwiftyShadow.modulemap";
-				PRODUCT_MODULE_NAME = SwiftyShadow;
-				PRODUCT_NAME = SwiftyShadow;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -999,7 +637,7 @@
 		};
 		D9C99A8BC1FFC0292FE706669B8D7662 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 408E16B392EEE93144B52F2314D4968F /* Pods-FoodLandTests.debug.xcconfig */;
+			baseConfigurationReference = CAE49391FAE41FACA96400D61C0CB231 /* Pods-FoodLandTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1036,7 +674,7 @@
 		};
 		E396CC5012B11528C6D1AAD09D2159A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B81DC7DF33B855FBACCD94E785F72CA2 /* Pods-FoodLandTests.release.xcconfig */;
+			baseConfigurationReference = C6BE9BA1D599DA0D3FC971327EB0DBA6 /* Pods-FoodLandTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1072,56 +710,9 @@
 			};
 			name = Release;
 		};
-		F88C1ACE03B9E339DFB37B698B1E0C58 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF2C69DD1EED0A9469556D099387C9F1 /* Pods-FoodLand.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FoodLand/Pods-FoodLand-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FoodLand/Pods-FoodLand.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		046660BBA1197E18D0FCFE0ED78EA25E /* Build configuration list for PBXNativeTarget "SwiftyShadow" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5E3893C8A9B3E449DCC274D1E7768D70 /* Debug */,
-				333E2B57503F135BE1D3D4E7F3BF1249 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1131,29 +722,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		965E370F0C4448738EC5215385FE5F6E /* Build configuration list for PBXNativeTarget "Pods-FoodLand-FoodLandUITests" */ = {
+		6C02EC84BB24E8C5BEFF7CAAC6E6B03F /* Build configuration list for PBXNativeTarget "Pods-FoodLand" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				44CDB5486328DB1D74FD0015F1DCA228 /* Debug */,
-				45021634C68EF17A5D8EF2E5DC75E64E /* Release */,
+				7AF67CAB838F843405135F2C5E1A8A7F /* Debug */,
+				A8B04312CB4FB4CBCCEC07C7AF7FBE2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9BB71DF8A78DA9184B370DFCE2E4A9F5 /* Build configuration list for PBXNativeTarget "iOSDropDown" */ = {
+		F6272199E5F00D8C937E41F1E01705D0 /* Build configuration list for PBXNativeTarget "Pods-FoodLand-FoodLandUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E12A2FAE246AB180C3F3C676C300069 /* Debug */,
-				5B42562DF2EC85844EF2D9F4C24EEB63 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ACC8C061CF9C869896CA7BDA87EA0D7E /* Build configuration list for PBXNativeTarget "Pods-FoodLand" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1C26567D9EA9D6A1FD8377FC90385140 /* Debug */,
-				F88C1ACE03B9E339DFB37B698B1E0C58 /* Release */,
+				013D7E7CE80070CF8DDDCB2B68572A2C /* Debug */,
+				332BB4B4C09DCABB57FAB872D8F5FDDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

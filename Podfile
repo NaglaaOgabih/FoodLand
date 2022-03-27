@@ -6,8 +6,6 @@ target 'FoodLand' do
   use_frameworks!
 
   # Pods for FoodLand
-   pod 'iOSDropDown'
-   pod 'SwiftyShadow'
   target 'FoodLandTests' do
     inherit! :search_paths
     # Pods for testing

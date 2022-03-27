@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		505EDCFF199FF01AF68CAB2E /* Pods_FoodLand_FoodLandUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC8BA081A7616553A07892A /* Pods_FoodLand_FoodLandUITests.framework */; };
 		6F8B7F9C41628F91BE89D846 /* Pods_FoodLandTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D26F25A77665E39B69078A /* Pods_FoodLandTests.framework */; };
+		A01718C227F05059002F193A /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01718C127F05059002F193A /* ContactUsViewController.swift */; };
+		A01718C427F05253002F193A /* ContactUs+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01718C327F05253002F193A /* ContactUs+TableView.swift */; };
+		A01718C627F052B7002F193A /* ContactUsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01718C527F052B7002F193A /* ContactUsTableViewCell.swift */; };
 		A031A97327EB0D3F00ACD4C9 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A031A97227EB0D3F00ACD4C9 /* MainPageViewController.swift */; };
 		A07B4F9B27EB401E00998DD8 /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B4F9A27EB401E00998DD8 /* MainCollectionViewCell.swift */; };
 		A07B4F9D27EB433700998DD8 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07B4F9C27EB433700998DD8 /* MainTableViewCell.swift */; };
@@ -25,6 +28,7 @@
 		A0845D9827EB0C820067413C /* FoodLandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0845D9727EB0C820067413C /* FoodLandTests.swift */; };
 		A0845DA227EB0C820067413C /* FoodLandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0845DA127EB0C820067413C /* FoodLandUITests.swift */; };
 		A0845DA427EB0C820067413C /* FoodLandUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0845DA327EB0C820067413C /* FoodLandUITestsLaunchTests.swift */; };
+		A0FD7EF827F0A728001083E2 /* UIView+RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD7EF727F0A728001083E2 /* UIView+RoundCorners.swift */; };
 		E1C867DF6EC0FDFFC7120561 /* Pods_FoodLand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FCBC405A64AA79A4808FD0E /* Pods_FoodLand.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +57,9 @@
 		7FC8BA081A7616553A07892A /* Pods_FoodLand_FoodLandUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodLand_FoodLandUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F490F5E4854259B08D16C55 /* Pods-FoodLandTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodLandTests.release.xcconfig"; path = "Target Support Files/Pods-FoodLandTests/Pods-FoodLandTests.release.xcconfig"; sourceTree = "<group>"; };
 		9FDA7276CF9A68C619E574DA /* Pods-FoodLand.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodLand.release.xcconfig"; path = "Target Support Files/Pods-FoodLand/Pods-FoodLand.release.xcconfig"; sourceTree = "<group>"; };
+		A01718C127F05059002F193A /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		A01718C327F05253002F193A /* ContactUs+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContactUs+TableView.swift"; sourceTree = "<group>"; };
+		A01718C527F052B7002F193A /* ContactUsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsTableViewCell.swift; sourceTree = "<group>"; };
 		A031A97227EB0D3F00ACD4C9 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		A07B4F9A27EB401E00998DD8 /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 		A07B4F9C27EB433700998DD8 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
@@ -73,6 +80,7 @@
 		A0845D9D27EB0C820067413C /* FoodLandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodLandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0845DA127EB0C820067413C /* FoodLandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLandUITests.swift; sourceTree = "<group>"; };
 		A0845DA327EB0C820067413C /* FoodLandUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLandUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0FD7EF727F0A728001083E2 /* UIView+RoundCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+RoundCorners.swift"; sourceTree = "<group>"; };
 		B9B8A4B0D5A966445B3E41D4 /* Pods-FoodLand.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodLand.debug.xcconfig"; path = "Target Support Files/Pods-FoodLand/Pods-FoodLand.debug.xcconfig"; sourceTree = "<group>"; };
 		C2326D9545561A44EC0F3944 /* Pods-FoodLand-FoodLandUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodLand-FoodLandUITests.release.xcconfig"; path = "Target Support Files/Pods-FoodLand-FoodLandUITests/Pods-FoodLand-FoodLandUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,8 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				A031A97227EB0D3F00ACD4C9 /* MainPageViewController.swift */,
-				A07B4FA127EC5D4E00998DD8 /* MainPageVC+TableView.swift */,
-				A07B4FA327EC65F000998DD8 /* MainPageVC+CollectionView.swift */,
+				A01718C127F05059002F193A /* ContactUsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -137,6 +144,7 @@
 				A07B4F9C27EB433700998DD8 /* MainTableViewCell.swift */,
 				A07B4F9E27EB451D00998DD8 /* OffersCollectionViewCell.swift */,
 				A07B4FA527ECA04500998DD8 /* MainTableViewCell + collectionCell.swift */,
+				A01718C527F052B7002F193A /* ContactUsTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -166,6 +174,7 @@
 		A0845D7F27EB0C800067413C /* FoodLand */ = {
 			isa = PBXGroup;
 			children = (
+				A0FD7EF627F0A6C7001083E2 /* Extensions */,
 				A07B4FA027EC5C6A00998DD8 /* Cells */,
 				A031A97127EB0D1E00ACD4C9 /* Controller */,
 				A031A97027EB0D1900ACD4C9 /* View */,
@@ -195,6 +204,17 @@
 				A0845DA327EB0C820067413C /* FoodLandUITestsLaunchTests.swift */,
 			);
 			path = FoodLandUITests;
+			sourceTree = "<group>";
+		};
+		A0FD7EF627F0A6C7001083E2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A07B4FA127EC5D4E00998DD8 /* MainPageVC+TableView.swift */,
+				A07B4FA327EC65F000998DD8 /* MainPageVC+CollectionView.swift */,
+				A01718C327F05253002F193A /* ContactUs+TableView.swift */,
+				A0FD7EF727F0A728001083E2 /* UIView+RoundCorners.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		BC1236F4287B8D2DC6ACD3D9 /* Pods */ = {
@@ -231,7 +251,6 @@
 				A0845D7927EB0C800067413C /* Sources */,
 				A0845D7A27EB0C800067413C /* Frameworks */,
 				A0845D7B27EB0C800067413C /* Resources */,
-				DDB14E81F0DF79DEBAE3A4D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -269,7 +288,6 @@
 				A0845D9927EB0C820067413C /* Sources */,
 				A0845D9A27EB0C820067413C /* Frameworks */,
 				A0845D9B27EB0C820067413C /* Resources */,
-				854283D6EC08DE9315A0D000 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -396,23 +414,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		854283D6EC08DE9315A0D000 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FoodLand-FoodLandUITests/Pods-FoodLand-FoodLandUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FoodLand-FoodLandUITests/Pods-FoodLand-FoodLandUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodLand-FoodLandUITests/Pods-FoodLand-FoodLandUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B8CAD2DFE7D5F646A92A58AB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -435,23 +436,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DDB14E81F0DF79DEBAE3A4D3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FoodLand/Pods-FoodLand-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FoodLand/Pods-FoodLand-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodLand/Pods-FoodLand-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -459,16 +443,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0FD7EF827F0A728001083E2 /* UIView+RoundCorners.swift in Sources */,
 				A07B4FA427EC65F100998DD8 /* MainPageVC+CollectionView.swift in Sources */,
 				A07B4F9B27EB401E00998DD8 /* MainCollectionViewCell.swift in Sources */,
+				A01718C427F05253002F193A /* ContactUs+TableView.swift in Sources */,
 				A031A97327EB0D3F00ACD4C9 /* MainPageViewController.swift in Sources */,
 				A0845D8527EB0C800067413C /* ViewController.swift in Sources */,
 				A0845D8127EB0C800067413C /* AppDelegate.swift in Sources */,
+				A01718C627F052B7002F193A /* ContactUsTableViewCell.swift in Sources */,
 				A07B4F9D27EB433700998DD8 /* MainTableViewCell.swift in Sources */,
 				A07B4FA627ECA04600998DD8 /* MainTableViewCell + collectionCell.swift in Sources */,
 				A07B4F9F27EB451D00998DD8 /* OffersCollectionViewCell.swift in Sources */,
 				A07B4FA227EC5D4E00998DD8 /* MainPageVC+TableView.swift in Sources */,
 				A0845D8327EB0C800067413C /* SceneDelegate.swift in Sources */,
+				A01718C227F05059002F193A /* ContactUsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
