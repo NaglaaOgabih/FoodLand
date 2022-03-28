@@ -30,10 +30,7 @@ class MainPageViewController: UIViewController {
             image: UIImage(named: "bars")!.withRenderingMode(.alwaysOriginal),
             style: .plain, target: self, action: #selector(menuClicked))
         let tabBarButton = UIButton(frame: CGRect(x:0, y: 0, width: 70, height: 40))
-//        let  dropDown = DropDown(frame: ) // set frame
         tabBarButton.titleLabel?.text = "Delivering to"
-//        dropDown.text = "Delivering to"
-        
         let label = UILabel(frame: CGRect(x:0, y: 0, width: 220, height: 21))
         label.textAlignment = .center
         label.text = "Road No. 3621 Seef"
