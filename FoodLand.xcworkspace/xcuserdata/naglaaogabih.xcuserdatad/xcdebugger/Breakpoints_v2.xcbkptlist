@@ -14,10 +14,33 @@
             filePath = "FoodLand/Controller/MenuTableViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
+<<<<<<< HEAD
             startingLineNumber = "22"
             endingLineNumber = "22"
             landmarkName = "MenuTableViewController"
             landmarkType = "3">
+=======
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "closeBtnPressed(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1075C77E-2E7C-4300-932C-D38D96E7C7A4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FoodLand/Controller/MenuTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+>>>>>>> 7cb3234f1cdfae831015650759ce251f11123873
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -30,9 +53,15 @@
             filePath = "FoodLand/Controller/SlideUpViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
+<<<<<<< HEAD
             startingLineNumber = "21"
             endingLineNumber = "21"
             landmarkName = "menuBtnPressed(_:)"
+=======
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "didTabCloseBtn()"
+>>>>>>> 7cb3234f1cdfae831015650759ce251f11123873
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
