@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zFn-8v-VzT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rx9-c8-Lab">
     <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -363,7 +363,109 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ol8-VD-wmP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1683.6448598130839" y="715.98272138228947"/>
+            <point key="canvasLocation" x="762.61682242990651" y="715.98272138228947"/>
+        </scene>
+        <!--Slide Up View Controller-->
+        <scene sceneID="f9n-pH-VNG">
+            <objects>
+                <viewController id="rx9-c8-Lab" customClass="SlideUpViewController" customModule="FoodLand" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rtb-Ar-ELo">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pEb-r6-63z">
+                                <rect key="frame" x="50" y="144" width="46.666666666666657" height="30.666666666666657"/>
+                                <color key="tintColor" red="0.59479427340000002" green="0.19261881710000001" blue="0.19606369730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="line.3.horizontal" catalog="system"/>
+                                <connections>
+                                    <action selector="menuBtnClicked:" destination="pvG-6H-h7q" eventType="touchUpInside" id="9mc-YG-Zxc"/>
+                                    <action selector="menuBtnPressed:" destination="rx9-c8-Lab" eventType="touchUpInside" id="MU6-Y3-Scz"/>
+                                </connections>
+                            </button>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FPO-Z5-3E9">
+                                <rect key="frame" x="0.0" y="933" width="428" height="309"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="309" id="apN-o1-lJG"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="BeH-ym-KmU" kind="embed" id="eBj-yW-bdo"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jl6-Zy-McB"/>
+                        <color key="backgroundColor" red="0.94834914159999995" green="0.94834914159999995" blue="0.94834914159999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="pEb-r6-63z" firstAttribute="top" secondItem="jl6-Zy-McB" secondAttribute="top" constant="100" id="0eR-pP-oCm"/>
+                            <constraint firstItem="FPO-Z5-3E9" firstAttribute="leading" secondItem="jl6-Zy-McB" secondAttribute="leading" id="Kx7-jZ-mPx"/>
+                            <constraint firstItem="pEb-r6-63z" firstAttribute="leading" secondItem="jl6-Zy-McB" secondAttribute="leading" constant="50" id="kqS-ZN-KP8"/>
+                            <constraint firstItem="jl6-Zy-McB" firstAttribute="bottom" secondItem="FPO-Z5-3E9" secondAttribute="bottom" constant="-350" id="syo-2T-WYR"/>
+                            <constraint firstItem="jl6-Zy-McB" firstAttribute="trailing" secondItem="FPO-Z5-3E9" secondAttribute="trailing" id="ulg-if-Fwn"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomAnchor" destination="syo-2T-WYR" id="38H-pu-S06"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tbQ-uF-sjR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12.616822429906541" y="1401.5118790496761"/>
+        </scene>
+        <!--Menu Table View Controller-->
+        <scene sceneID="4Ek-eA-XQg">
+            <objects>
+                <tableViewController id="BeH-ym-KmU" customClass="MenuTableViewController" customModule="FoodLand" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="o6M-Jz-7Ub">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="309"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="IgE-eb-CBX">
+                            <rect key="frame" x="0.0" y="0.0" width="428" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agM-B5-DWv">
+                                    <rect key="frame" x="352.66666666666669" y="6.0000000000000018" width="45.333333333333314" height="30.666666666666671"/>
+                                    <color key="tintColor" red="0.59479427340000002" green="0.19261881710000001" blue="0.19606369730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" image="multiply.circle.fill" catalog="system"/>
+                                    <connections>
+                                        <action selector="closeBtnPressed:" destination="BeH-ym-KmU" eventType="touchUpInside" id="78I-jY-Ypi"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menu Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="35l-KL-XPR">
+                                    <rect key="frame" x="151.66666666666666" y="11.666666666666664" width="124.99999999999997" height="21"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="agM-B5-DWv" secondAttribute="trailing" constant="30" id="HVO-AZ-tvh"/>
+                                <constraint firstItem="agM-B5-DWv" firstAttribute="top" secondItem="IgE-eb-CBX" secondAttribute="top" constant="6" id="UxP-VG-zVL"/>
+                                <constraint firstItem="35l-KL-XPR" firstAttribute="centerX" secondItem="IgE-eb-CBX" secondAttribute="centerX" id="yUT-aA-45k"/>
+                                <constraint firstItem="35l-KL-XPR" firstAttribute="centerY" secondItem="IgE-eb-CBX" secondAttribute="centerY" id="ybC-HF-6aa"/>
+                            </constraints>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="pJA-Ua-nIP">
+                                <rect key="frame" x="0.0" y="88.666666030883789" width="428" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pJA-Ua-nIP" id="mvP-sD-5RA">
+                                    <rect key="frame" x="0.0" y="0.0" width="428" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="BeH-ym-KmU" id="L8L-UO-ypQ"/>
+                            <outlet property="delegate" destination="BeH-ym-KmU" id="cgQ-Ai-9yf"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zGC-Sv-bVA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="763" y="1564"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NgR-NP-nE9">
@@ -399,7 +501,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gFa-fP-863" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="783.64485981308405" y="715.98272138228947"/>
+            <point key="canvasLocation" x="13" y="716"/>
         </scene>
     </scenes>
     <resources>
@@ -407,7 +509,9 @@
         <image name="Universal" width="270" height="270"/>
         <image name="burger" width="317" height="125.33333587646484"/>
         <image name="delivery" width="11" height="9.6666669845581055"/>
+        <image name="line.3.horizontal" catalog="system" width="128" height="64"/>
         <image name="mainImg" width="386" height="217"/>
+        <image name="multiply.circle.fill" catalog="system" width="128" height="121"/>
         <image name="star" width="13" height="12"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

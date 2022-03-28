@@ -28,6 +28,8 @@
 		A0845D9827EB0C820067413C /* FoodLandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0845D9727EB0C820067413C /* FoodLandTests.swift */; };
 		A0845DA227EB0C820067413C /* FoodLandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0845DA127EB0C820067413C /* FoodLandUITests.swift */; };
 		A0845DA427EB0C820067413C /* FoodLandUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0845DA327EB0C820067413C /* FoodLandUITestsLaunchTests.swift */; };
+		A09D339227F1A589005C9EF4 /* SlideUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09D339127F1A588005C9EF4 /* SlideUpViewController.swift */; };
+		A09D339427F1A9B9005C9EF4 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09D339327F1A9B9005C9EF4 /* MenuTableViewController.swift */; };
 		A0FD7EF827F0A728001083E2 /* UIView+RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FD7EF727F0A728001083E2 /* UIView+RoundCorners.swift */; };
 		E1C867DF6EC0FDFFC7120561 /* Pods_FoodLand.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FCBC405A64AA79A4808FD0E /* Pods_FoodLand.framework */; };
 /* End PBXBuildFile section */
@@ -80,6 +82,8 @@
 		A0845D9D27EB0C820067413C /* FoodLandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodLandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0845DA127EB0C820067413C /* FoodLandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLandUITests.swift; sourceTree = "<group>"; };
 		A0845DA327EB0C820067413C /* FoodLandUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodLandUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A09D339127F1A588005C9EF4 /* SlideUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideUpViewController.swift; sourceTree = "<group>"; };
+		A09D339327F1A9B9005C9EF4 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
 		A0FD7EF727F0A728001083E2 /* UIView+RoundCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+RoundCorners.swift"; sourceTree = "<group>"; };
 		B9B8A4B0D5A966445B3E41D4 /* Pods-FoodLand.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodLand.debug.xcconfig"; path = "Target Support Files/Pods-FoodLand/Pods-FoodLand.debug.xcconfig"; sourceTree = "<group>"; };
 		C2326D9545561A44EC0F3944 /* Pods-FoodLand-FoodLandUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodLand-FoodLandUITests.release.xcconfig"; path = "Target Support Files/Pods-FoodLand-FoodLandUITests/Pods-FoodLand-FoodLandUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 			children = (
 				A031A97227EB0D3F00ACD4C9 /* MainPageViewController.swift */,
 				A01718C127F05059002F193A /* ContactUsViewController.swift */,
+				A09D339127F1A588005C9EF4 /* SlideUpViewController.swift */,
+				A09D339327F1A9B9005C9EF4 /* MenuTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -447,6 +453,7 @@
 				A07B4FA427EC65F100998DD8 /* MainPageVC+CollectionView.swift in Sources */,
 				A07B4F9B27EB401E00998DD8 /* MainCollectionViewCell.swift in Sources */,
 				A01718C427F05253002F193A /* ContactUs+TableView.swift in Sources */,
+				A09D339427F1A9B9005C9EF4 /* MenuTableViewController.swift in Sources */,
 				A031A97327EB0D3F00ACD4C9 /* MainPageViewController.swift in Sources */,
 				A0845D8527EB0C800067413C /* ViewController.swift in Sources */,
 				A0845D8127EB0C800067413C /* AppDelegate.swift in Sources */,
@@ -455,6 +462,7 @@
 				A07B4FA627ECA04600998DD8 /* MainTableViewCell + collectionCell.swift in Sources */,
 				A07B4F9F27EB451D00998DD8 /* OffersCollectionViewCell.swift in Sources */,
 				A07B4FA227EC5D4E00998DD8 /* MainPageVC+TableView.swift in Sources */,
+				A09D339227F1A589005C9EF4 /* SlideUpViewController.swift in Sources */,
 				A0845D8327EB0C800067413C /* SceneDelegate.swift in Sources */,
 				A01718C227F05059002F193A /* ContactUsViewController.swift in Sources */,
 			);
